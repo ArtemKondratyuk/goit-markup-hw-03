@@ -8,13 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
+      <div class="container">
       <nav>
-        <ul>
+        <ul class="navigation">
           <li>
             <a href="" class="web">WEB<span class="studio">STUDIO</span></a>
           </li>
@@ -27,28 +31,30 @@
           <li><a href="" class="link-menu">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts">
         <li>
-          <a href="mail:info@devstudio.com" class="link-mail"
-            >info@devstudio.com</a>
+          <a href="mail:info@devstudio.com" class="link-mail">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+11(000)111-11-11" class="link-tel"
-            >+11(000)111-11-11</a>
+          <a href="tel:+11(000)111-11-11" class="link-tel">+11(000)111-11-11</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section>
+        <div class="container">
         <ul class="menu">
-        <li><button type="button" class="btn btn-text">All</button></li>
-        <li><button type="button" class="btn btn-text">WebSite</button></li>
-        <li><button type="button" class="btn btn-text">App</button></li>
-        <li><button type="button" class="btn btn-text">Design</button></li>
-        <li><button type="button" class="btn btn-text">Marketing</button></li>
-      </ul>
-        <ul>
-          <li>
+          <li><button type="button" class="btn btn-text">All</button></li>
+          <li><button type="button" class="btn btn-text">WebSite</button></li>
+          <li><button type="button" class="btn btn-text">App</button></li>
+          <li><button type="button" class="btn btn-text">Design</button></li>
+          <li><button type="button" class="btn btn-text">Marketing</button></li>
+        </ul>
+      </div>
+      <div class="container">
+       <ul class="content-menu">
+          <li class="content">
             <img
               src="images/bankingapp.jpg"
               alt="Banking App"
@@ -57,8 +63,7 @@
             <h3 class="feature">Banking App Interface Concept</h3>
             <p class="project-card">App</p>
           </li>
-          <li></li>
-          <li>
+          <li class="content">
             <img
               src="images/cashlesspayment.jpg"
               alt="Cashless Payment"
@@ -67,7 +72,7 @@
             <h3 class="feature">Cashless Payment</h3>
             <p class="project-card">Marketing</p>
           </li>
-          <li>
+          <li class="content">
             <img
               src="images/meditaionapp.jpg"
               alt="Meditaion App"
@@ -76,7 +81,11 @@
             <h3 class="feature">Meditaion App</h3>
             <p class="project-card">App</p>
           </li>
-          <li>
+           </ul>
+           </div>
+           <div class="container">
+           <ul class="content-menu">      
+          <li class="content">
             <img
               src="images/taxiservice.jpg"
               alt="Taxi Service"
@@ -85,7 +94,7 @@
             <h3 class="feature">Taxi Service</h3>
             <p class="project-card">Marketing</p>
           </li>
-          <li>
+          <li class="content">
             <img
               src="images/screenillustrations.jpg"
               alt="Screen Illustrations"
@@ -94,7 +103,7 @@
             <h3 class="feature">Screen Illustrations</h3>
             <p class="project-card">Design</p>
           </li>
-          <li>
+          <li class="content">
             <img
               src="images/onlinecourses.jpg"
               alt="Online Courses"
@@ -103,7 +112,11 @@
             <h3 class="feature">Online Courses</h3>
             <p class="project-card">Marketing</p>
           </li>
-          <li>
+        </ul> 
+      </div>
+      <div class="container">
+        <ul class="content-menu">
+          <li class="content">
             <img
               src="images/instagramStories.jpg"
               alt="Instagram Stories Concept"
@@ -112,7 +125,7 @@
             <h3 class="feature">Instagram Stories Concept</h3>
             <p class="project-card">Design</p>
           </li>
-          <li>
+          <li class="content">
             <img
               src="images/organicfood.jpg"
               alt="Organic Food"
@@ -121,7 +134,7 @@
             <h3 class="feature">Organic Food</h3>
             <p class="project-card">Web Site</p>
           </li>
-          <li>
+          <li class="content">
             <img
               src="images/freshcoffee.jpg"
               alt="Fresh Coffee"
@@ -131,14 +144,17 @@
             <p class="project-card">Web Site</p>
           </li>
         </ul>
+    </div>
       </section>
     </main>
     <footer>
+      <div class="logo">
       <a href="" class="web">WEB<span class="footer-studio">STUDIO</span></a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>

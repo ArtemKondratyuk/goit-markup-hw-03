@@ -10,6 +10,29 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
   --btn-hover: rgba(0, 0, 0, 0.12);
   --btn-hover-color: rgba(0, 0, 0, 0.1);
+  --personal-color: rgba(46, 47, 66, 0.08);
+  --personal: rgba(46, 47, 66, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+header .container {
+  display: flex;
+  box-sizing: border-box;
+  background: var(--body-bg-color);
+  box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
+    0px 1px 6px var(--personal-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.container {
+  display: flex;
 }
 
 body {
@@ -34,13 +57,28 @@ body {
   line-height: 1.33;
   color: var(--text-color);
   letter-spacing: 0.03em;
+  padding-right: 77px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  padding-left: 156px;
+  gap: 40px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding-left: 331px;
+  padding-right: 156px;
+  gap: 40px;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
+  padding: 96px 474px 72px;
   gap: 24px;
 }
 
@@ -77,6 +115,7 @@ body {
   font-size: 56px;
   line-height: 1.2;
   color: var(--body-bg-color);
+  padding: 192px 474px 0px 474px;
 }
 
 .button-text {
@@ -85,6 +124,11 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--body-bg-color);
+  display: flex;
+  flex-direction: row;
+
+  padding: 16px 32px;
+  gap: 10px;
 }
 
 .button {
@@ -98,6 +142,8 @@ body {
   line-height: 1.19;
   color: var(--body-bg-color);
   letter-spacing: 0.04em;
+  margin: 48px 635px 192px;
+  padding: 16px 32px;
 }
 
 .btn {
@@ -107,12 +153,13 @@ body {
 }
 
 .btn-text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-brand);
   letter-spacing: 0.04em;
+  padding: 12px 24px;
 }
 
 .btn:hover {
@@ -141,6 +188,30 @@ a:focus {
   background: var(--logo-studio-footer);
 }
 
+.section-text {
+  margin: 72px 156px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.content-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0px 156px 48px;
+  
+}
+
+.content {
+  width: 360px;
+  height: 420px;
+  background: var(--body-bg-color);
+  border: 0.5px solid var(--logo-studio-footer);
+  box-shadow: 0px 1px 6px var(--personal-color);
+  text-align: center;
+}
+
 .feature {
   font-weight: 700;
   font-size: 20px;
@@ -156,11 +227,37 @@ a:focus {
   letter-spacing: 0.02em;
 }
 
-.title {
+.title-what {
   font-size: 36px;
   line-height: 1.11;
   color: var(--text-color);
   letter-spacing: 0.02em;
+  padding: 0px 559px 0px;
+}
+
+.title-team {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  padding: 120px 639px 72px;
+}
+
+.our-team {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 156px 120px;
+  gap: 24px;
+}
+
+.personal {
+  width: 264px;
+  height: 380px;
+  background: var(--body-bg-color);
+  box-shadow: 0px 1px 6px var(--personal-color), 0px 1px 1px var(--personal),
+    0px 2px 1px var(--personal-color);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 .team {
@@ -188,6 +285,20 @@ a {
 
 footer {
   background: var(--text-color);
+
+}
+
+.logo {
+  padding: 100px 1020px 100px 156px;
+}
+
+.footer-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--primary-brand);
+  letter-spacing: 0.03em;
 }
 
 .footer-studio {

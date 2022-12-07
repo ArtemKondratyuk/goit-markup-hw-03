@@ -26,8 +26,8 @@ header .container {
   background: var(--body-bg-color);
   box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
     0px 1px 6px var(--personal-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
   width: 1440px;
   margin: auto;
   box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
-  0px 1px 6px var(--personal-color);
+    0px 1px 6px var(--personal-color);
 }
 
 .web {
@@ -202,7 +202,6 @@ a:focus {
   flex-direction: row;
   gap: 24px;
   padding: 0px 156px 48px;
-  
 }
 
 .content {
@@ -287,7 +286,6 @@ a {
 
 footer {
   background: var(--text-color);
-
 }
 
 .logo {

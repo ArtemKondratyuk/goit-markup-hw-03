@@ -30,7 +30,6 @@ header .container {
     padding-bottom: 24px;
 }
 
-
 .container {
   display: flex;
 }
@@ -39,6 +38,10 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: var(--body-text-color);
+  width: 1440px;
+  margin: auto;
+  box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
+  0px 1px 6px var(--personal-color);
 }
 
 .web {
@@ -64,7 +67,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-left: 156px;
-  gap: 40px;
+  gap: 32px;
 }
 
 .contacts {
@@ -72,7 +75,7 @@ body {
   flex-direction: row;
   padding-left: 331px;
   padding-right: 156px;
-  gap: 40px;
+  gap: 32px;
 }
 
 .menu {
@@ -126,7 +129,6 @@ body {
   color: var(--body-bg-color);
   display: flex;
   flex-direction: row;
-
   padding: 16px 32px;
   gap: 10px;
 }
@@ -143,7 +145,7 @@ body {
   color: var(--body-bg-color);
   letter-spacing: 0.04em;
   margin: 48px 635px 192px;
-  padding: 16px 32px;
+  padding: 16px 28px;
 }
 
 .btn {
@@ -232,7 +234,7 @@ a:focus {
   line-height: 1.11;
   color: var(--text-color);
   letter-spacing: 0.02em;
-  padding: 0px 559px 0px;
+  padding: 0px 558px 0px;
 }
 
 .title-team {
@@ -240,7 +242,7 @@ a:focus {
   line-height: 1.11;
   color: var(--text-color);
   letter-spacing: 0.02em;
-  padding: 120px 639px 72px;
+  padding: 120px 638px 72px;
 }
 
 .our-team {

@@ -20,28 +20,32 @@
   margin: 0px;
 }
 
-header .container {
-  display: flex;
-  box-sizing: border-box;
-  background: var(--body-bg-color);
+header {
   box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
     0px 1px 6px var(--personal-color);
+}
+
+header .container {
+  display: flex;
+  background: var(--body-bg-color);
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .container {
-  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: var(--body-text-color);
-  width: 1440px;
-  margin: auto;
-  box-shadow: 0px 2px 1px var(--personal-color), 0px 1px 1px var(--personal),
-    0px 1px 6px var(--personal-color);
+}
+
+nav {
+  margin-left: 156px;
 }
 
 .web {
@@ -66,23 +70,25 @@ body {
 .navigation {
   display: flex;
   flex-direction: row;
-  padding-left: 156px;
-  gap: 32px;
+   gap: 40px;
+   margin-left: 77px;
 }
 
 .contacts {
   display: flex;
   flex-direction: row;
-  padding-left: 331px;
-  padding-right: 156px;
-  gap: 32px;
+   gap: 32px;
+   margin-left: auto;
+  
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  padding: 96px 474px 72px;
   gap: 24px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+ 
 }
 
 .link-menu {
@@ -111,6 +117,8 @@ body {
 
 .hero {
   background: var(--text-color);
+  text-align: center;
+  padding: 192px 0;
 }
 
 .solutions {
@@ -118,7 +126,8 @@ body {
   font-size: 56px;
   line-height: 1.2;
   color: var(--body-bg-color);
-  padding: 192px 474px 0px 474px;
+  max-width: 495px;
+  margin: 0 auto;
 }
 
 .button-text {
@@ -144,7 +153,7 @@ body {
   line-height: 1.19;
   color: var(--body-bg-color);
   letter-spacing: 0.04em;
-  margin: 48px 635px 192px;
+ margin-top: 48px;
   padding: 16px 28px;
 }
 
@@ -191,26 +200,36 @@ a:focus {
 }
 
 .section-text {
-  margin: 72px 156px;
+ 
   display: flex;
   flex-direction: row;
   gap: 24px;
+}
+
+.section{
+  padding: 120px 0;
 }
 
 .content-menu {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
-  padding: 0px 156px 48px;
+ 
 }
 
 .content {
   width: 360px;
-  height: 420px;
-  background: var(--body-bg-color);
-  border: 0.5px solid var(--logo-studio-footer);
-  box-shadow: 0px 1px 6px var(--personal-color);
+   background: var(--body-bg-color); 
   text-align: center;
+  box-shadow: 0px 1px 6px var(--personal-color);  
+}
+
+.content-border {
+  border-left: 0.5px solid var(--logo-studio-footer);
+  border-bottom: 0.5px solid var(--logo-studio-footer);
+  border-right: 0.5px solid var(--logo-studio-footer);
+  border-top: 0;
+  
 }
 
 .feature {
@@ -218,8 +237,13 @@ a:focus {
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-color);
-  letter-spacing: 0.02em;
-  padding: 32px 32px 8px;
+  letter-spacing: 0.02em; 
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -234,7 +258,18 @@ a:focus {
   line-height: 1.11;
   color: var(--text-color);
   letter-spacing: 0.02em;
-  padding: 0px 558px 0px;
+  text-align: center;
+} 
+
+h2{
+  margin-bottom: 72px;
+}
+
+img {
+  display:block;
+  width: 100%;
+  height: auto;
+
 }
 
 .title-team {
@@ -242,19 +277,18 @@ a:focus {
   line-height: 1.11;
   color: var(--text-color);
   letter-spacing: 0.02em;
-  padding: 120px 638px 72px;
+  text-align: center;
 }
 
 .our-team {
   display: flex;
   flex-direction: row;
-  padding: 0px 156px 120px;
-  gap: 24px;
+   gap: 24px;
 }
 
 .personal {
   width: 264px;
-  height: 380px;
+  padding-bottom: 32px;
   background: var(--body-bg-color);
   box-shadow: 0px 1px 6px var(--personal-color), 0px 1px 1px var(--personal),
     0px 2px 1px var(--personal-color);
@@ -268,7 +302,7 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   color: var(--body-text-color);
-  padding: 0px 60px 32px;
+ 
 }
 
 .project-card {
@@ -276,6 +310,7 @@ a:focus {
   line-height: 1.5;
   color: var(--body-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 ul {
@@ -288,10 +323,7 @@ a {
 
 footer {
   background: var(--text-color);
-}
-
-.logo {
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
 }
 
 .footer-web {
@@ -301,6 +333,11 @@ footer {
   line-height: 1.33;
   color: var(--primary-brand);
   letter-spacing: 0.03em;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .footer-studio {
@@ -318,4 +355,5 @@ footer {
   line-height: 1.5;
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
+  margin-top: 16px;
 }

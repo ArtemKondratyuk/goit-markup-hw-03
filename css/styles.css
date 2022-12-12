@@ -49,8 +49,8 @@ body {
 }
 
 nav {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -69,7 +69,7 @@ a:focus {
   color: var(--primary-brand);
 }
 
-h2{
+h2 {
   margin-bottom: 72px;
 }
 
@@ -78,7 +78,7 @@ h3 {
 }
 
 img {
-  display:block;
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -107,7 +107,6 @@ button:hover {
   line-height: 1.33;
   color: var(--text-color);
   letter-spacing: 0.03em;
- 
 }
 
 /* navigation */
@@ -115,16 +114,15 @@ button:hover {
 .navigation {
   display: flex;
   flex-direction: row;
-   gap: 40px;
-   margin-left: 77px;
+  gap: 40px;
+  margin-left: 77px;
 }
 
 .contacts {
   display: flex;
   flex-direction: row;
-   gap: 32px;
-   margin-left: auto;
-  
+  gap: 32px;
+  margin-left: auto;
 }
 
 .link-menu {
@@ -197,7 +195,7 @@ button:hover {
   line-height: 1.19;
   color: var(--body-bg-color);
   letter-spacing: 0.04em;
- margin-top: 48px;
+  margin-top: 48px;
   padding: 16px 28px;
 }
 
@@ -205,12 +203,12 @@ button:hover {
 
 .section-text {
   display: flex;
- flex-direction: row;
- gap: 24px;
+  flex-direction: row;
+  gap: 24px;
 }
 
-.section{
- padding: 120px 0;
+.section {
+  padding: 120px 0;
 }
 
 .feature {
@@ -218,7 +216,7 @@ button:hover {
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-color);
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -242,7 +240,7 @@ button:hover {
   color: var(--text-color);
   letter-spacing: 0.02em;
   text-align: center;
-} 
+}
 
 /* team */
 
@@ -261,7 +259,7 @@ button:hover {
 .our-team {
   display: flex;
   flex-direction: row;
-   gap: 24px;
+  gap: 24px;
 }
 
 .personal {
@@ -276,44 +274,41 @@ button:hover {
 
 .feature-team {
   font-weight: 700;
-   font-size: 20px;
-   line-height: 1.2;
-   color: var(--text-color);
-   letter-spacing: 0.02em; 
-   margin-top: 32px;
-   margin-bottom: 8px;  
- }
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
 
- .team {
+.team {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--body-text-color);
- 
 }
 
 /* page portfolio */
 
-
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  }
+}
 
 .menu {
   display: flex;
   flex-direction: row;
   gap: 24px;
   margin: 0 auto;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
 }
 
 .btn {
   background: var(--logo-studio-footer);
   border: 1px solid var(--footer-text-color);
   border-radius: 4px;
- 
 }
 
 .btn-text {
@@ -339,13 +334,13 @@ button:hover {
 .content-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;  
+  gap: 24px;
 }
 
-.content-portfolio{
+.content-portfolio {
   width: 360px;
-   background: var(--body-bg-color); 
-    box-shadow: 0px 1px 6px var(--personal-color);  
+  background: var(--body-bg-color);
+  box-shadow: 0px 1px 6px var(--personal-color);
   margin-bottom: 48px;
 }
 
@@ -364,7 +359,7 @@ button:hover {
   line-height: 1.5;
   color: var(--body-text-color);
   letter-spacing: 0.02em;
-  margin: 0px
+  margin: 0px;
 }
 
 /* footer */
@@ -405,7 +400,3 @@ footer {
   letter-spacing: 0.02em;
   margin-top: 16px;
 }
-
-
-
-
